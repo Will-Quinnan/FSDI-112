@@ -6,7 +6,7 @@
 
 {% block content %}
 
-<h1>Edit Post</h1>
+<h1>Log in</h1>
     <form method= "POST">
         {% csrf_token  %}
         {{ form.as_p }}
@@ -14,4 +14,6 @@
     </form>
 
 {% endblock content %}
+
+
 
